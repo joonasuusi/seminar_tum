@@ -1,0 +1,278 @@
+% Tämä tässä on LaTeX-lähdekoodia. Prosenttimerkki aloittaa kommentin,
+% jonka jälkeinen osa rivistä ei näy julkaistavassa dokumentissa.
+
+% Kommentteja voi laittaa tarpeen mukaan - aivan kuin ohjelmakoodiin.
+% Kaikki, mikä ei ole kommenttia, on LaTeX-järjestelmän tulkittavaksi
+% tarkoitettua merkintää rakenteiselle dokumentille.
+
+% LaTeX on kummallinen, mutta valtavan käyttökelpoinen vekotin, missä
+% voit kirjoittaa ja siinä seassa tarpeen mukaan vähän ohjelmoida
+% tuottaaksesi ladotusta tekstistä ja asemoiduista kuvista koostuvan
+% julkaisun - ensialkuun nyt vaikkapa gradun. Kaikki on kovin
+% automaattista ja näppärää varsinkin sitten, kun tekstin,
+% lähdeviitteiden ja dokumentin sisäisten ristiviittausten määrä alkaa
+% lähennellä mielekkään tieteellisen tutkimuksen tarpeita.
+
+% Tämä pohja on muokattu gradu3 -dokumenttiluokan esimerkkigradusta
+% ITKY4000:n tarpeisiin syksyllä 2019. Tästä on poistettu kaikki
+% ylimääräinen, ja tähän on jätetty vain minimaalinen pohja ITKY4000:n
+% oppimispäiväkirjan 4. osan toteuttamista varten.
+
+% Tarkoitus on tarjota kaikille syksyn 2019 itkyttelijöille pehmeä
+% ensikosketus LaTeXiin, jolla meidän omat kandimme ovatkin jo tehneet
+% yhden tutkielman aiemmin.
+
+% Ensikosketuksessa voit etsiä tästä tiedostosta kohdat, jotka pitää
+% muuttaa, että mallina annetusta oppimispäiväkirjasta tulee esimerkin
+% sijaan omasi. Sama prosessi tehdään yleensä teknisten ja
+% matemaattisten alojen tutkimusartikkeleille: Ladataan lehden
+% julkaisijan nettisivulta mallipohja ja aletaan muokata sitä
+% kommenttien ohjaamana. Tulee just sen muotoinen artikkeli kuin
+% kyseiseen lehteen halutaan. Ja tästä nyt tulee just sen muotoinen
+% kuin ITKY4000:ssa halutaan :).
+
+% Kun aikanaan aloitat oikean gradun tekemisen, hae netistä sen hetken
+% uusin versio dokumenttiluokasta, laita pohjadokumenttisi
+% mahdollisimman nopeasti versionhallintaan ja tee sille myös
+% etävarasto (esimerkiksi privaatti repo githubiin, gitlabiin tmv.)
+% ettei laitevika tai muu ulkoinen syy pääse tuhoamaan gradua varten
+% tekemääsi työtä eivätkä versiot mene sekaisin. (Siinä vaiheessa
+% koulutusta toivottavasti ymmärrät, mitä äskeinen sanahelinä
+% tarkoittaa, ja osaat tehdä sen heittämällä sinä kauniina iltana, kun
+% gradun aloitus tuntuu erityisen ajankohtaiselta:))
+
+\documentclass[utf8,english]{gradu3}
+% For any *foreign* student in there.. You may write in
+% English, in which case you should use the following line instead:
+%\documentclass[utf8,english]{gradu3}
+
+% Suomalaiset kirjoittavat suomeksi! (==Finns write in Finnish!)
+
+\usepackage{graphicx} % kuvien mukaan ottamista varten; tarvitaan.
+
+%\usepackage{amsmath} % hyödyllinen jos tekstisi sisältää matikkaa,
+%                     % ei pakollinen
+
+% ... ja niin edelleen, oikeassa gradussa... tässä otetaan mukaan
+% tarvittavia lisäosia erilaisten juttujen latomiseen dokumenttiin.
+
+% HUOM! Tämän tulee olla viimeinen \usepackage koko dokumentissa!
+\usepackage[bookmarksopen,bookmarksnumbered,linktocpage]{hyperref}
+
+\addbibresource{ref.bib} % Lähdetietokannan tiedostonimi; tarvitaan.
+
+% ^
+% |
+% +---- yllä olevat ovat teknisiä määritelmiä, joilla voi säätää kaikenlaista.
+
+% LaTeX-dokumentin varsinainen sisältö alkaa aina \begin{document} ja
+% päättyy \end{document}.
+
+% Pro-tip: mallipohjan voi jättää LaTeX-lähdekoodin loppuun malliksi
+% erilaisten juttujen tekemisestä teknisesti. Sieltä voi ammentaa
+% copy-paste-modifyllä niin ei tarvitse niin paljon tehdä
+% KVG-menettelyä LaTeX-temppujen tekemiseksi. Miten? Laittamalla
+% vaan \end{document} jo siihen kohtaan, missä oma tämänhetkinen
+% tuotos loppuu. LaTeX-järjestelmä lopettaa lukemisen käskystä siihen.
+
+\begin{document}
+
+% Seuraavaksi tulevat nimiötiedot täytyy aina laittaa. LaTeX-pohjat
+% helpottavat muistamaan, mitkä nimiötiedot julkaisuun, esimerkiksi
+% graduun, tarvitaan julkaisijan asettamien sääntöjen mukaan. Yleensä
+% aloitetaan kirjoittaminen vaihtamalla nimiötiedot omiksi, ja
+% ryhdytään sitten raapustelemaan sisältöä mallitekstinä olevan
+% diibadaaban ja/tai muoto-ohjeistuksen tilalle.
+
+\title{Security and privacy issues with call applications and browsers}
+%\translatedtitle{}%
+
+\author{Shashwat Mishra and Joonas Uusi-Autti} %  <-- oma nimesi tietysti tähän, ja yhteystiedot:
+\contactinformation{\texttt{ge58tid@mytum.de, ge58wun@mytum.de}}
+%\studyline{} % <-- voi vaihtaa oman tuohon.
+\supervisor{Tibor Posa}
+% --------------------------------------------------------------------
+% Tiivistelmä ja avainsanat voivat jäädä ITKY4000:ssa samoiksi kuin
+% esimerkissä, tai sitten voit halutessasi nostaa niihin esiin
+% joitakin juuri omaan elämääsi liittyviä avainpohdintoja. Tiivistelmä
+% on yleensä hyvin lyhyt ja kertoo vain kaikkein olennaisimman.
+
+
+\abstract{Small research in the field of security and privacy concerning video conference applications)
+}
+
+% Avainsanat on oltava yhdellä rivillä, josta voisi tulla tekstieditorissa pitkä:
+%\avainsanat{orientaatiokurssi, HOPS, omakohtainen reflektio, itky4000}%
+
+\keywords{literature review, % <-- Pro tip: LaTeX ei näe rivinvaihtoa, kun on %
+          security, %
+          privacy% ... joten LaTeXille koko pätkä on yksi rivi
+} % <--- Loppusulku!
+
+\type{Course: Security and privacy economics} % oikeassa gradussa ei ole tätä riviä.
+\subject{} % oikeassa gradussa tähän tulee oppiaine (oletuksena ''Tietotekniikan'')
+
+% Nimiötiedot päättyvät tähän. Ne eivät tulostu mihinkään ennen komentoa \maketitle
+% ----------------------------------------------------------------------------------
+
+% Kansisivu tulostuu seuraavan komennon kohdalle aivan kuin gradussasi aikanaan:
+
+\maketitle
+
+% Seuraava komento ilmoittaa LaTeXille, että nyt vasta alkaa varsinainen sisältö.
+
+\mainmatter
+
+
+% Seuraavaa "sloppy paragraph"-komentoa ei sitten jätetä graduun tai
+% artikkeliin! Se antaa LaTeXille luvan tehdä rumaa
+% jälkeä.. oppimispäiväkirjassa ja muistiotyyppisissä dokumenteissa
+% oikaistaan tässä kohtaa, kun jätetään käyttämättä aikaa viimeiseen
+% viimeistelyvaiheeseen.. Kysy sitten aikanaan graduohjaajalta lisää
+% siitä, mitä asiaan liittyy. Tai KVG...
+\sloppypar 
+
+
+% Gradun päätason otsikot laitetaan komennolla \chapter{otsikko}. Suomeksi
+% näitä sanotaan luvuiksi.
+
+\chapter{Introduction}
+\label{introduction}
+
+
+% Laitetaan oppimispäiväkirjaan harjoituksen vuoksi myös johdanto ja
+% yhteenveto. Johdannoksi voit jättää alkuperäisen mallitekstin, jonka
+% yritin tehdä mahdollisimman geneeriseksi.
+
+% Voit myös kirjoittaa johdannon halutessasi uudelleen omalla
+% tyylilläsi. Johdanto on aina lyhyt kuvaus siitä, mitä kirjoitelmassa
+% on ja erityisesti lähteisiin pohjautuva perustelu sille, miksi se on
+% tärkeää. Nyt en kuitenkaan laita tähän mallitekstiin lähteitä, koska
+% tieteellinen hygienia vaatisi, että olisit varmuudella itsekin
+% lukenut lähteen, joka tässä mainittaisiin. Nyt en pakota tässä
+% lukemaan mitään, joten laitan mahdolliset omat viitteeni myöhempiin
+% lukuihin, jotka korvaat omalla tekstilläsi. Voit viitata haluamiisi
+% lähteisiin, jotka olet itse lukenut. Johdannon viimeisessä
+% tekstikappaleessa kerrotaan lukijalle, mitä kussakin myöhemmistä
+% pääluvuista käsitellään.
+
+
+% Gradussa tähän kohtaan tulisi tutkimuskysymys ja lähteisiin
+% perustuva perustelu sille, miksi se on tärkeä ja ajankohtainen.
+% Eikä oikeastaan muuta. Jätetään se oppimispäiväkirjan mielessä
+% lyhyimmäksi mahdolliseksi :).
+
+% Ristiviittaukset tehdään komennolla
+% \ref{kohteenKuvaavaNimiCaseSensitiveKirjaimilla} seuraavan esimerkin
+% mukaisesti. Kivaa, selkeää, automaattista, ja lähellä koodarin
+% normaalia ajatusmallia - eikö?
+
+
+%
+% <--- Pro tip: LaTeXin kommenteilla voi tehdä itselleen tyhjän
+%      näköistä tilaa, joka ei tulostu dokumenttiin. Käytän tätä itse
+%      aina tarvittaessa ajattelun apuvälineenä sekä yksittäisiin lauseisiin
+%      kohdistuvina "FIXME: perustele väite tarkemmin tai poista löpinä
+%      kokonaan" -tyylisinä kommentteina.
+%
+%      Auttaa kirjoitusprosessin vaihetta, jossa on (yleensä) tullut aika
+%      "hyväksyä keskeneräisyys" ja siivota hieno TODO-lista backlogiin 
+%      ja maton alle lopputuotteesta, jonka deadline lähestyy.
+%
+
+
+% Seuraavaksi merkataan alkamaan uusi luku taas
+% komennolla \chapter{Kuvaava otsikko} ja sille annetaan
+% ristiviittauksia varten nimi komennolla
+% \label{kohteenKuvaavaNimiCaseSensitiveKirjaimilla}.
+
+
+
+% Perusteksti kirjoitetaan samalla periaatteella kuin esimerkiksi
+% MarkDownissa, eli mieluusti alle 80 merkin mittaisina riveinä.
+% Tyhjä rivi merkitsee tekstikappaleen vaihtoa. Kappaleiden muotoilu
+% ja tavutukset tulevat automaattisesti ja yleensä aika nätisti.
+
+% Tarkoitus on, että tässä kohdassa poistat minun raapustuksen ja sen
+% tilalle kopioit ja muotoilet nätisti oppimispäiväkirjan ensimmäisen
+% osan tekstin. Sehän on jo tehty, mutta halutessasi voit myös muovata
+% tekstiä tämän päivän ajattelusi mukaiseksi.
+
+% Teknisesti muutostyö mennee jotakuinkin näin:
+%
+% 1. tekstiosuuden copy-paste toimisto-ohjelmasta
+% 2. ylimääräiset rivinvaihdot kappaleiden väliin
+% 3. kappaleiden rivitys tekstieditorin automaattisella rivityksellä
+%    (esimerkiksi Notepad++:ssa se aiemmassa opetusvideossa etsitty
+%    pikanäppäin)
+
+\
+
+% Korvaa otsikko omallasi sopivasti (ellet haaveile vallankumouksesta
+% itsekin):
+
+% Tieteellisessä tekstissä on tavanomainen tyyli kirjoittaa myös
+% tekstinä auki kaikki havainnepiirrokset ja kaaviot. Harjoitellaan
+% nyt sitä. Korvaa siis alla oleva teksti pohdinnalla omasta
+% oppimispäiväkirjan 2. osassa tehdystä kuvasta. Ristiviittaus ja
+% kuvan tekninen liittäminen LaTeX-dokumenttiin on annettu malliksi,
+% samoin kuin esimerkki tavasta, jolla kuvan sisältöä voi avata.
+
+
+% 8< -----------------------------------
+
+% .. eli tähän asti oli tekstiä, jonka korvaat selityksellä omasta
+% kuvastasi. Itse laitetaan, kuten on tyypillistä, piakkoin siitä
+% kertovan tekstin *jälkeen*. Tällä tavoin laitetaan, ja kuvan
+% asemointi annetaan LaTeXin automatiikan huoleksi:
+
+
+  %
+  % Ylläoleva koodi toimii sellaisenaan, jos tallennat kuvatiedostosi
+  % PDF-muodossa tiedostoon nimeltä kaaviokuva.pdf esimerkkinä olleen 
+  % kuvan tilalle.
+  %
+  % Alla on normaali \label{tunniste} kohdassa, johon se kuuluu.
+  % Muuta suomenkielinen otsikko vastaamaan oman kuvasi sisältöä.
+  %
+
+
+
+
+
+% Tämä teksti on jo kirjoitettu Oppimispäiväkirjan 3. osassa.
+%
+% LaTeXia varten se tarvitsee muutaman säädön:
+%
+%  - Alilukujen otsikot merkitään \section{Kuvaava otsikko}
+%
+%  - Jos on alialilukuja, ne merkitään \subsection{Kuvaava otsikko}
+%
+%  - Tehdään teknisesti kunnollinen viittaus luettuun graduun komennolla
+%    \textcite{bibtexAvain} tai \parencite{bibtexAvain}.
+%
+%  - Prosenttimerkit ja muut LaTeX-kielen syntaksiin kuuluvat jutut pitää 
+%    laittaa jollain tavoin, minkä LaTeX ymmärtää (tai poistaa - less is
+%    more:)).
+%
+%  - Suomalaiset lainausmerkit " on hyvä korvata kahdella heittomerkillä ''
+%    niin tulee nätti.
+%
+%  - Tehdään muita pieniä säätöjä Markdownin ja LaTeXin syntaksien välillä.
+%    Perusmallin esimerkkejä löytyy tekstini seasta:
+
+
+% ------------------------------------------------------------------
+%
+% Tähän asti tuli muokkaamalla ja täydentämällä oppimispäiväkirjan
+% osia 1-3. Seuraavaksi on 4. osan loppupohdinnan paikka.
+%
+% Korvaa esimerkit aliotsikoiden alta oman pohdintasi mukaisiksi.
+%
+% ------------------------------------------------------------------
+
+tänyt oikean alan opiskella. 
+
+\printbibliography
+
+\end{document}
