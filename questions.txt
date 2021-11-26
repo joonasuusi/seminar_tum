@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 About 10 question should be fine
 Preliminary template for the questions
 
@@ -19,4 +20,27 @@ Preliminary template for the questions
 
 9.
 
+=======
+About 10 question should be fine
+Preliminary template for the questions
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+>>>>>>> d196eb0eb7008d43b89d02ecd8ece66255d78b85
 10.
