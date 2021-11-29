@@ -1,0 +1,5 @@
+video conference privacy:
+1. The privacy protection effectiveness of the video conference platforms' virtual background and the privacy concerns from the end-users
+https://arxiv.org/pdf/2110.12493.pdf
+
+2.
