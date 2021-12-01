@@ -1,3 +1,24 @@
 1.12.2021
 - Find research articles for the literature review
 - Start writing the literature review chapter (if possible)
+
+IEEE Xplorer
+  Keywords: ("All Metadata":browser) AND ("All Metadata":security) AND ("All   Metadata":privacy) (metadata) 248hits
+  - Inclusion criteria
+    - Free
+    - Language english
+  - Basically different attack possibilities, nothing about browser privacy
+  Keywords: ("All Metadata":video conference application) AND ("All Metadata":privacy) AND ("All Metadata":security) (metadata) hits 186
+  - Inclusion criteria
+    - Free
+    - Language english
+  - Lots of video surveillance and video facial reg. ml articles
+  Keywords: ("All Metadata":video call) AND ("All Metadata":privacy) AND ("All Metadata":security) hits 41
+  - Inclusion criteria
+    - Free
+    - Language english
+  - Same as previous 
+
+Google Scholar
+  Keywords: allintitle: video conference application
+  - Nothing..
