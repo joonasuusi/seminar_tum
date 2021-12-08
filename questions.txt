@@ -1,11 +1,13 @@
 About 10 question should be fine
 Preliminary template for the questions
 
-1.
+1. Are you, as a student, concerned about data collecting when using video conference applications?(Zoom, Microsoft Teams, Google Meet)
+(Yes/No)
 
-2.
+2. How concerned you are about data collecting? (1 = Not at all, 4 = Very concerned)
+1: Not at all, 2: Slightly concerned, 3: Cannot say, 4: Very concerned
 
-3.
+3. 
 
 4.
 
