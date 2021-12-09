@@ -2,30 +2,34 @@
 - Find research articles for the literature review
 - Start writing the literature review chapter (if possible)
 
+
+
 IEEE Xplorer
-  Keywords: ("All Metadata":browser) AND ("All Metadata":security) AND ("All   Metadata":privacy) (metadata) 248hits
+  Keywords: ("All Metadata":browser) AND ("All Metadata":security) AND ("All   Metadata":privacy) (metadata), year: 2016-2021 248hits
   - Inclusion criteria
     - Free
     - Language english
   - Basically different attack possibilities, nothing about browser privacy
-  Keywords: ("All Metadata":video conference application) AND ("All Metadata":privacy) AND ("All Metadata":security) (metadata) hits 186
+  Keywords: ("All Metadata":video conference application) AND ("All Metadata":privacy) AND ("All Metadata":security) (metadata), year: 2016-2021 hits 186
   - Inclusion criteria
     - Free
     - Language english
   - Lots of video surveillance and video facial reg. ml articles
-  Keywords: ("All Metadata":video call) AND ("All Metadata":privacy) AND ("All Metadata":security) hits 41
+  Keywords: ("All Metadata":video call) AND ("All Metadata":privacy) AND ("All Metadata":security), year: 2016-2021 hits 41
   - Inclusion criteria
     - Free
     - Language english
   - Same as previous 
+  Keywords: ("All Metadata":zoom) AND ("All Metadata":privacy) AND ("All Metadata":security), year: 2016-2021 hits 14
+  1. https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9129700
 
 Google Scholar
-  Keywords: allintitle: video conference application
+  Keywords: allintitle: video conference application, year: 2016-2021
   - Nothing..
-  Keywords: allintitle: zoom privacy hits 22
+  Keywords: allintitle: zoom privacy, year: 2016-2021 hits 22
   1. https://osf.io/preprints/socarxiv/mf935/download 
   2. https://journals.sagepub.com/doi/pdf/10.1177/0306422020935792
   3. https://houstonlawreview.org/article/12850.pdf
   4. https://www.hawaii.edu/its/wp-content/uploads/sites/2/2020/05/Google-Meet-Microsoft-Teams-Webex-Privacy-Issues-Consumer-Reports.pdf
   
-  
+
