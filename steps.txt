@@ -31,5 +31,25 @@ Google Scholar
   2. https://journals.sagepub.com/doi/pdf/10.1177/0306422020935792
   3. https://houstonlawreview.org/article/12850.pdf
   4. https://www.hawaii.edu/its/wp-content/uploads/sites/2/2020/05/Google-Meet-Microsoft-Teams-Webex-Privacy-Issues-Consumer-Reports.pdf
+  Keywords: allintitle: zoom security, year: 2016-2021 hits 40
+  1. https://www.tomsguide.com/news/zoom-security-privacy-woes
+  2. https://svcc2020.svcsi.org/accepted-papers/Dynamic-Security-Analysis-of-Zoom,-Google-Meet-and-Microsoft-Teams
+  3. https://eprint.iacr.org/2021/486.pdf
+  4. https://www.cnet.com/tech/services-and-software/zoom-security-issues-zoom-buys-security-company-aims-for-end-to-end-encryption/
+  5. https://theconversation.com/zoom-security-ive-researched-problems-with-video-conferencing-for-years-heres-what-you-need-to-know-136330
+  6. https://tidbits.com/2020/04/03/every-zoom-security-and-privacy-flaw-so-far-and-what-you-can-do-to-protect-yourself/
+  7. https://www.theverge.com/2020/4/3/21207643/zoom-security-privacy-zoombombing-passwords-waiting-rooms-default
+  8. https://www.theverge.com/2020/4/23/21232401/zoom-300-million-users-growth-coronavirus-pandemic-security-privacy-concerns-response
+  9. https://www.theverge.com/2020/4/1/21202584/zoom-security-privacy-issues-video-conferencing-software-coronavirus-demand-response
+  10. https://www.washingtonpost.com/technology/2020/04/02/everybody-seems-be-using-zoom-its-security-flaws-could-leave-people-risk/
+  11. https://onezero.medium.com/zoom-is-full-of-security-flaws-but-you-can-protect-yourself-f153f078ecbf
   
+  Keywords: allintitle: microsoft teams privacy, year: 2016-2021 hits 1
+  - Nothing new
+  Keywords: allintitle: microsoft teams security, year: 2016-2021 hits 5
+  - Nothing new
+  Keywords: allintitle: google meet security, year: 2016-2021 hits 1
+  - Nothing new
+  Keywords: allintitle: google meet privacy, year: 2016-2021 hits 1
+  - Nothing new
 
