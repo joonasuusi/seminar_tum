@@ -52,4 +52,7 @@ Google Scholar
   - Nothing new
   Keywords: allintitle: google meet privacy, year: 2016-2021 hits 1
   - Nothing new
-
+  Keywords: allintitle: browser privacy, year: 2016-2021 hits 59
+  1. Forensic Analysis of Epic Privacy Browser on Windows Operating Systems https://markscanlon.co/papers/EpicPrivacyBrowser.pdf
+  2. Privacy and Security Issues in Baidu Browser https://tspace.library.utoronto.ca/bitstream/1807/97205/4/Report%2370--BaiduBrowser.pdf
+  3. Web Browser Privacy: What Do Browsers Say When They Phone Home? https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9374407
