@@ -31,6 +31,7 @@ Google Scholar
   2. Zooming in on privacy concerns https://journals.sagepub.com/doi/pdf/10.1177/0306422020935792
   3. The dark side of videoconferencing: The privacy tribulations of Zoom and the fragmented state of U.S. data privacy law https://houstonlawreview.org/article/12850.pdf
   4. It's Not Just Zoom. Google Meet, Microsoft Teams, and Webex Have Privacy Issues, Too. https://www.hawaii.edu/its/wp-content/uploads/sites/2/2020/05/Google-Meet-Microsoft-Teams-Webex-Privacy-Issues-Consumer-Reports.pdf
+  
   Keywords: allintitle: zoom security, year: 2016-2021 hits 40
   1. Zoom security issues: Everything that's gone wrong (so far) https://www.tomsguide.com/news/zoom-security-privacy-woes
   2. Dynamic Security Analysis of Zoom, Google Meet and Microsoft Teams https://svcc2020.svcsi.org/accepted-papers/Dynamic-Security-Analysis-of-Zoom,-Google-Meet-and-Microsoft-Teams
