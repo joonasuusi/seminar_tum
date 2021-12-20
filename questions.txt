@@ -10,7 +10,8 @@ Preliminary template for the questions
 3. What video conference application you use the most?
 1: Zoom, 2: Google Meet, 3: Microsoft Teams, 4: Other, what? ________
 
-4.
+4. How often do you read applications privacy policy text?
+1. Never, 2: Rarely, 3: Often, 4: Always
 
 5.
 
