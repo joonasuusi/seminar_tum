@@ -4402,7 +4402,9 @@
     <bcf:citekey order="8">zoomingInto</bcf:citekey>
     <bcf:citekey order="9">goneWrongZoom</bcf:citekey>
     <bcf:citekey order="10">goneWrongZoom</bcf:citekey>
-    <bcf:citekey order="11">dynamicSecurityAnalysis</bcf:citekey>
+    <bcf:citekey order="11">e2eeZoom</bcf:citekey>
+    <bcf:citekey order="12">safetyOfVca</bcf:citekey>
+    <bcf:citekey order="13">dynamicSecurityAnalysis</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="cms">

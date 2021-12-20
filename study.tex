@@ -84,7 +84,7 @@
 % ryhdytään sitten raapustelemaan sisältöä mallitekstinä olevan
 % diibadaaban ja/tai muoto-ohjeistuksen tilalle.
 
-\title{Security and privacy issues with conference applications and browsers}
+\title{Security and privacy issues with conference applications}
 %\translatedtitle{}%
 
 \author{Shashwat Mishra and Joonas Uusi-Autti} %  <-- oma nimesi tietysti tähän, ja yhteystiedot:
@@ -106,7 +106,7 @@
 \keywords{literature review, % <-- Pro tip: LaTeX ei näe rivinvaihtoa, kun on %
           security, %
           privacy, survey,% ... joten LaTeXille koko pätkä on yksi rivi
-          video conference applications%
+          video conference applications,survey%
 } % <--- Loppusulku!
 
 \type{Course: Security and privacy economics} % oikeassa gradussa ei ole tätä riviä.
@@ -138,17 +138,18 @@
 
 \chapter{Introduction}
 \label{introduction}
-After the COVID-19 pandemic hit hard all over the world, video conference applications (VCA) usage has been increasing a lot in education and work environments and every user is not familiar with applications and their features \parencite{zsolt2020}. Especially education has been affected a lot. Remote-working has been a possibility, although not very common one. Remote-learning has not been common and due to COVID-19 pandemic every student and teacher had to familiarize new techniques. And by rushing into using these applications, it is possible that very rare group of students know what else VCA's do, besides the obvious, giving an opportunity to attend classes and so on. Data collecting is happening nowadays everywhere. It is clear that e.g. Zoom collects data \parencite{zoomdata}, but do students know what kind of data? And are students even concerned about data collecting?
+After the COVID-19 pandemic hit hard all over the world, video conference applications (VCA) usage has been increasing a lot in education and work environments and every user is not familiar with applications and their features \parencite{zsolt2020}. Especially education has been affected a lot. Remote-working has been a possibility, although not very common one. Remote-learning has not been common and due to COVID-19 pandemic every student and teacher had to familiarize new techniques. And by rushing into using these applications, it is possible that very rare group of students know what else VCA's do, besides the obvious, giving an opportunity to attend classes and learn. Data collecting is happening nowadays everywhere. It is clear that e.g. Zoom collects data \parencite{zoomdata}, but do students know what kind of data? And are students even concerned about data collecting?
+Security problems happens everywhere, where there is network connection involved. High increase of using VCA's has also brought up some new security flaws to these applications. But what kind of issues and how organizations handle these new threats?
 %
 
-We conducted a literature review [\ref{literatureReview}] and a questionnaire survey focusing on privacy and security issues with VCA's [\ref{vca}]. Survey was directed to university students.
+We conducted a literature review [\ref{literatureReview}] to gain more background information about the issues and a questionnaire survey focusing on privacy and security issues with VCA's [\ref{vca}]. Survey was directed to university students.
 %
 
 %
 In the results [\ref{results}] section we open up our findings and (to be continued)
 
 %
-In the end of the research, reader can find discussion about the results and suggestions towards the future [\ref{discussion}]. These suggestions are solely based on our point of views, which are found in the research process.
+In the end of the research, reader can find discussion about the results and suggestions towards the future [\ref{discussion}]. These suggestions are solely based on our point of views, which are found in the research process and cannot be generalized, because of the fact that only three applications are being researched.
 
 % Ristiviittaukset tehdään komennolla
 % \ref{kohteenKuvaavaNimiCaseSensitiveKirjaimilla} seuraavan esimerkin
@@ -159,7 +160,8 @@ In the end of the research, reader can find discussion about the results and sug
 \label{researchquestion}
 Research aim is to collect and analyze data are students concerned about privacy issues while using video conference applications. Data collecting is done by questionnaire survey.
 
-Research question is Security and privacy issues with call applications and browsers?
+Research question is Security and privacy issues with call applications?
+Research is focusing on security and privacy problems only in the three biggest VCA applications Zoom, Google Meet and MIcrosoft Teams. These are are clearly most heavily used and out of the three, Zoom has the most users, 300 million and counting.
 
 
 \chapter{Literature review}
@@ -187,7 +189,10 @@ These privacy issues can lead to serious risks and damage the companies or invid
 Since the COVID19 pandemic has been tearing the earth, video conference applications usage has been increasing tremendiously. And usually when a application or software generates popularity to such an extend (e.g. Zoom went from 10 million daily users to 300 million daily users \parencite{goneWrongZoom}), there is usually security flaws involved. 
 In march 2020, when basically everything went online (work,education), different organizations started to use different platforms. Like stated before, three biggest platform considering VCA's, are Google Meet, Zoom and Microsoft Teams.
 
-One of most common security issues was end-to-end-encryption(E2EE), which allowed other users in the meeting see lot about you and some people could "Zoombomb", these meetings \parencite{goneWrongZoom}. "Zoombombing" is a phenomenon where malicious user "hijacks" the meeting and shares content which is disruptive for users. There are some differencies how these three applications operate. User can use every one of them via browser but Google Meet operates solely in browser and this feature separates Meet from the other two. Google has said that it limits the attack surface of their platform, because they can immediately deploy changes, since it is only accesible on the browser. In addition, Meet requires Single Sign-On(SSO) with their Google accounts, when joining the meeting. Usually Google accounts consists of two-step verification and with these functios, Google focuses on preventing phishing, account hacking and similar attacks as "Zoomboming" \parencite{dynamicSecurityAnalysis}.
+One of most common security issues was end-to-end-encryption(E2EE), which allowed other users in the meeting see lot about you and some people could "Zoombomb", these meetings \parencite{goneWrongZoom}. "Zoombombing" is a phenomenon where malicious user "hijacks" the meeting and shares content which is disruptive for users. End-to-end-encryption is a scheme for communication for VCA's and other messaging applications in which only user in that precise meeting can only send and receive messages. For "Zoombombing", this is the most important security scheme \parencite{e2eeZoom}.
+Out of these three VCA applications, only Zoom provides E2EE but only in text chat and when sharing files. Google Meet and Microsoft Teams do not provide E2EE in any of the following criterias: text chat, voice calls, video calls, file sharing and screen sharing \parencite{safetyOfVca}. While these findings are from 2020, E2EE functions may have been upgraded.
+
+While these three biggest VCA platforms have similiraties, there are some differencies how these three applications operate. User can use every one of them via browser but Google Meet operates solely in browser and this feature separates Meet from the other two. Google has said that it limits the attack surface of their platform, because they can immediately deploy changes, since it is only accesible on the browser. In addition, Meet requires Single Sign-On(SSO) with their Google accounts, when joining the meeting. Usually Google accounts consists of two-step verification and with these functios, Google focuses on preventing phishing, account hacking and similar attacks as "Zoomboming" \parencite{dynamicSecurityAnalysis}.
 
 \chapter{Survey}
 \label{vca}
