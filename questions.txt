@@ -1,26 +1,37 @@
-About 10 question should be fine
 Preliminary template for the questions
 
-1. Are you, as a student, concerned about data collecting when using video conference applications?(Zoom, Microsoft Teams, Google Meet)
+Privacy
+1. Are you aware of data collecting when using video conference applications?(Zoom, Microsoft Teams, Google Meet)
 (Yes/No)
 
-2. How concerned you are about data collecting? (1 = Not at all, 4 = Very concerned)
+2. Are you, as a student, concerned about data collecting when using video conference applications?(Zoom, Microsoft Teams, Google Meet)
+(Yes/No)
+
+3. How concerned you are about data collecting? (1 = Not at all, 4 = Very concerned)
 1: Not at all, 2: Slightly concerned, 3: Cannot say, 4: Very concerned
 
-3. What video conference application you use the most?
+4. What video conference application you use the most?
 1: Zoom, 2: Google Meet, 3: Microsoft Teams, 4: Other, what? ________
 
-4. How often do you read applications privacy policy text?
+5. How often do you read applications privacy policy text?
 1. Never, 2: Rarely, 3: Often, 4: Always
 
-5.
+6. What kind of data you think video conference applications collect from users?
+(Open question)
 
-6.
+Security
+7. Do you trust video conference applications security functions?
+(Yes/No)
 
-7.
+8. When organizing a meeting, do you protect the meeting with password?
+(Yes/No)
 
-8.
+9. What kind of other security measurements you take into consideration when attending/organizing a meeting? (waiting room, link sharing, etc.)
+(Open question)
 
-9.
+10. If you face a security threat during a meeting, what do you do?
+(Open question)
 
-10.
+11.
+
+12.
