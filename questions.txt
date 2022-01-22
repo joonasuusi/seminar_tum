@@ -2,29 +2,29 @@ Preliminary template for the questions
 
 Privacy
 1. Are you aware of data collecting when using video conference applications?(Zoom, Microsoft Teams, Google Meet)
-(Yes/No)
+(Yes 58.62 /No 41.38)
 
 2. Are you, as a student, concerned about data collecting when using video conference applications?(Zoom, Microsoft Teams, Google Meet)
-(Yes/No)
+(Yes 48.28 /No 51.71)
 
 3. How concerned you are about data collecting? (1 = Not at all, 4 = Very concerned)
-1: Not at all, 2: Slightly concerned, 3: Cannot say, 4: Very concerned
+1: Not at all 20.69, 2: Slightly concerned 62.07, 3: Cannot say 6.90, 4: Very concerned 10.34
 
 4. What video conference application you use the most?
-1: Zoom, 2: Google Meet, 3: Microsoft Teams, 4: Other, what? ________
+1: Zoom 62.07, 2: Google Meet 10.34, 3: Microsoft Teams 24.14, 4: Other, what?________ 3.45 (skype)
 
 5. How often do you read applications privacy policy text?
-1. Never, 2: Rarely, 3: Often, 4: Always
+1. Never 41.38, 2: Rarely 41.38, 3: Sometimes 13.79, 4: Usually 3.45 5: Always 0%
 
 6. What kind of data you think video conference applications collect from users?
 (Open question)
 
 Security
 7. Do you trust video conference applications security functions?
-(Yes/No)
+(Yes 48.28 /No 51.72)
 
 8. When organizing a meeting, do you protect the meeting with password?
-(Yes/No)
+(Yes 55.17 /No 44.83)
 
 9. What kind of other security measurements you take into consideration when attending/organizing a meeting? (waiting room, link sharing, etc.)
 (Open question)
