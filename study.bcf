@@ -4405,6 +4405,10 @@
     <bcf:citekey order="11">e2eeZoom</bcf:citekey>
     <bcf:citekey order="12">safetyOfVca</bcf:citekey>
     <bcf:citekey order="13">dynamicSecurityAnalysis</bcf:citekey>
+    <bcf:citekey order="14">fbData</bcf:citekey>
+    <bcf:citekey order="15">zoomFlaws</bcf:citekey>
+    <bcf:citekey order="16">ZoomGoogleMS</bcf:citekey>
+    <bcf:citekey order="17">zoomCollect</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="cms">
