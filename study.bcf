@@ -4393,7 +4393,7 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">zsolt2020</bcf:citekey>
-    <bcf:citekey order="2">zoomdata</bcf:citekey>
+    <bcf:citekey order="2">zoomData</bcf:citekey>
     <bcf:citekey order="3">literatureRoyal</bcf:citekey>
     <bcf:citekey order="4">vcadata</bcf:citekey>
     <bcf:citekey order="5">ZoomGoogleMS</bcf:citekey>
@@ -4408,7 +4408,7 @@
     <bcf:citekey order="14">fbData</bcf:citekey>
     <bcf:citekey order="15">zoomFlaws</bcf:citekey>
     <bcf:citekey order="16">ZoomGoogleMS</bcf:citekey>
-    <bcf:citekey order="17">zoomCollect</bcf:citekey>
+    <bcf:citekey order="17">zoomData</bcf:citekey>
     <bcf:citekey order="18">safetyOfVca</bcf:citekey>
     <bcf:citekey order="19">secureVca</bcf:citekey>
     <bcf:citekey order="19">safetyOfVca</bcf:citekey>
